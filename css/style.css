@@ -295,7 +295,7 @@ ul {
 
 body {
 	/* position: relative;*/
-	background: url(../images/luca-bravo-9l_326FISzk-unsplash.jpg);
+	background: url(../images/login-background.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -313,6 +313,7 @@ h1.header {
 }
 
 .mid-class {
+	margin: auto;
 	display: -webkit-flex;
 	display: -webkit-box;
 	display: -moz-flex;
@@ -324,16 +325,11 @@ h1.header {
 }
 
 .art-right {
+	display: block;
+	padding: 10px;
+	border: 3px;
 	flex-basis: 60%;
 	-webkit-flex-basis: 60%;
-	box-sizing: border-box;
-}
-
-.art-left {
-	flex-basis: 40%;
-	-webkit-flex-basis: 40%;
-	box-sizing: border-box;
-	min-height: 100vh;
 	box-sizing: border-box;
 }
 
@@ -344,7 +340,7 @@ h1.header {
 	color: #000;
 	outline: none;
 	border: none;
-	border-bottom: #00a1ff 2px solid;
+	border-bottom: #fa7d09 2px solid;
 	-webkit-appearance: none;
 	background: #ffffff96;
 	-moz-transition: all 0.5s ease-in-out;
@@ -379,7 +375,7 @@ h1.header {
 }
 
 button[type=submit] {
-	background: #00a1ff;
+	background: #fa7d09;
 	outline: none;
 	color: #fff;
 	font-size: 14px;
@@ -439,7 +435,7 @@ input.checked {
 
 .more-buttn a {
 	font-size: 14px;
-	color: #1984c2;
+	color: #ec823a;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: capitalize;
@@ -495,7 +491,7 @@ input.checked {
 }
 
 .popup .close:hover {
-	color: #686de0;
+	color: #ec823a;
 }
 
 
@@ -515,7 +511,7 @@ input.checked {
 }
 
 .bottem-wthree-footer p a {
-	color: #f11c00;
+	color: #394989;
 	font-size: 14px;
 }
 
